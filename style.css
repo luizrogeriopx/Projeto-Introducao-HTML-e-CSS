@@ -1,0 +1,140 @@
+*{
+    height: 100;
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #000000;
+    line-height: 1.6;
+    padding: 0px;
+}
+
+nav {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.menu {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.menu:hover {
+    color: aquamarine;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 2,0px;
+    font-size: 40px;
+}
+
+.subtitulo {
+    text-align: center;
+    color: #555555;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.lista {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #000000;
+}
+
+/* Container do formulário */
+#form {
+    background: #fff;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 100%;
+}
+
+/* Título */
+#form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* Label */
+#form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs e textarea */
+#form input,
+#form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+/* Estilo quando o usuário clica (FOCUS) */
+#form input:focus,
+#form textarea:focus {
+    border-color: #0077ff;
+    box-shadow: 0 0 5px rgba(0,119,255,0.4);
+}
+
+/* Espaçamento */
+#form input,
+#form textarea {
+    margin-bottom: 15px;
+}
+
+/* Botão */
+#form input[type="submit"] {
+    background: #0077ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+/* Efeito hover */
+#form input[type="submit"]:hover {
+    background: #0059c9;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
